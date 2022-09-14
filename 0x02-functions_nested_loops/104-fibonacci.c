@@ -35,7 +35,7 @@ int main(void)
 		x2 = x3;
 		num1 = num2;
 		num2 = num3;
-		if (p >= 100)
+		if (x3 >= 100)
 			printf("%lu%lu", num3, x3);
 		else
 			printf("%lu0%lu", num3, x3);
