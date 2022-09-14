@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - main function - Prints the first 98 Fibonacci numbers, starting with
  * 1 and 2, separated by a comma followed by a space.
  * Return: 0
  */
+
 int main(void)
 {
 	int counter = 2;
