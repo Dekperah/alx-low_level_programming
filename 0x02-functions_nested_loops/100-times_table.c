@@ -2,6 +2,7 @@
 
 /**
  * print_times_table - times table function
+ * starting with 0.
  * @n: integer to return
  */
 
