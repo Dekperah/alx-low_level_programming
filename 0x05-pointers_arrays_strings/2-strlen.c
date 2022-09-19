@@ -1,9 +1,4 @@
-/*
- * File: 2-strlen.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _strlen - Returns the length of a string.
@@ -11,6 +6,7 @@
  *
  * Return: The length of @str.
  */
+
 size_t _strlen(const char *str)
 {
 	size_t length = 0;
