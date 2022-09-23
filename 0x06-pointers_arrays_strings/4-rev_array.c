@@ -1,9 +1,4 @@
-/*
- * File: 4-rev_array.c
- * Auth: Brennan D Baraban
- */
-
-#include "holberton.h"
+#include "main.h"
 
 /**
  * reverse_array - Reverses the content of an array of integers.
