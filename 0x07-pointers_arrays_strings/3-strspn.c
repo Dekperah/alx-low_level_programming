@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
   * _strspn - search a string for a set of bytes
@@ -9,24 +9,27 @@
   */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i = 0, j, t = 0;
-
-	while (accept[i])
+	unsigned int bytes = 0;
+	int index;
+	
+	while (*s)
 	{
-		j = 0;
-
-		while (s[j] != 32)
+		
+		for (index = 0; accept[index]; index++)
 		{
-			if (accept[i] == s[j])
+			
+			if (*s == accept[index])
 			{
-				t++;
+				bytes++;
+				
+				break;
 			}
-
-			j++;
+			
+			else if (accept[index + 1] == '\0')
+				
+				return (bytes);
 		}
-
-		i++;
+		s++;
 	}
-
-	return (t);
+	return (bytes);
 }
