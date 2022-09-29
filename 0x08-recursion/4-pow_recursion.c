@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * _pow_recursion - raises x to the power of y
@@ -8,6 +8,7 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
+
 int _pow_recursion(int x, int y)
 {
 	if (y < 0)
