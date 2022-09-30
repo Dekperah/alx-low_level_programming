@@ -2,25 +2,24 @@
 #include <stdlib.h>
 #include <ctype.h>
 
-
 /**
  * _isnumber - checks if string is a number
  * @s: string
- *
  * Return: On success 1.
  * If not a number, 0 is returned.
  */
+
 int _isnumber(char *s)
 {
-	int i, check, d;
+	int a, check, z;
 
-	i = 0, d = 0, check = 1;
+	a = 0, z = 0, check = 1;
 	if (*s == '-')
 		i++;
-	for (; *(s + i) != 0; i++)
+	for (; *(s + a) != 0; a++)
 	{
-		d = isdigit(*(s + i));
-		if (d == 0)
+		z = isdigit(*(s + a));
+		if (z == 0)
 		{
 			check = 0;
 			break;
@@ -30,14 +29,13 @@ int _isnumber(char *s)
 }
 /**
  * main - Entry point
- *
  * @argc: Counts the number of parameters that go into main
  * @argv: Pointer of array of pointers containing strings entering main
  * Return: Always 0 (Success)
  */
 int main(int argc, char **argv)
 {
-	int j, ex, coins, cents, d;
+	int b, ex, coins, cents, z;
 	int c[5] = {25, 10, 5, 2, 1};
 
 	ex = 1, j = 0, coins = 0;
@@ -50,15 +48,15 @@ int main(int argc, char **argv)
 			{
 				while (cents != 0)
 				{
-					d = cents / c[j];
-					if (d == 0)
+					z = cents / c[b];
+					if (z == 0)
 					{
-						j++;
+						b++;
 					}
 					else
 					{
-						coins += d;
-						cents -= (d * c[j]);
+						coins += z;
+						cents -= (z * c[b]);
 					}
 				}
 			}
