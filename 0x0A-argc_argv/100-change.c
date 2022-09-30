@@ -38,7 +38,7 @@ int main(int argc, char **argv)
 	int b, ex, coins, cents, z;
 	int c[5] = {25, 10, 5, 2, 1};
 
-	ex = 1, j = 0, coins = 0;
+	ex = 1, b = 0, coins = 0;
 	if (argc == 2)
 	{
 		if (_isnumber(argv[1]))
