@@ -1,25 +1,17 @@
 #include “main.h”
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
- * free_grid - function to free memory
- * @grid: pointer to grid of int type
- * @height: int type
- * Return: clean up memory
+ * free_grid - Frees a 2-dimensional array of integers.
+ * @grid: The 2-dimensional array of integers to be freed.
+ * @height: The height of grid.
  */
-
 void free_grid(int **grid, int height)
 {
-	int y;
+	int index;
 
-	if (grid == NULL || grid == 0)
-	{
-		return;
-	}
-	for (y = 0; y < height;  y++)
-	{
-		free(grid[y]);
-	}
+	for (index = 0; index < height; index++)
+		free(grid[index]);
+
 	free(grid);
 }
