@@ -1,4 +1,4 @@
-#include “main.h”
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -10,6 +10,7 @@
  *         Otherwise - a pointer the newly-allocated space in memory
  *                     containing the concatenated strings.
  */
+
 char *str_concat(char *s1, char *s2)
 {
 	char *concat_str;
