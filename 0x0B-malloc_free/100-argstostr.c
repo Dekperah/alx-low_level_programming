@@ -1,4 +1,4 @@
-#include “main.h”
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -10,6 +10,7 @@
  * Return: If ac == 0, av == NULL, or the function fails - NULL.
  *         Otherwise - a pointer to the new string.
  */
+
 char *argstostr(int ac, char **av)
 {
 	char *str;
