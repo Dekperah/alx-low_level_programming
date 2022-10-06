@@ -22,12 +22,8 @@ What you should learn from this project:
 * Write a function that creates an array of integers.
 
 
-[4. _realloc](./100-realloc.c)
+_realloc](./100-realloc.c)
 * Write a function that reallocates a memory block using malloc and free
 
 [5. We must accept finite disappointment, but never lose infinite hope](./101-mul.c)
 * Write a program that multiplies two positive numbers.
-
----
-
-## Author* **Jhoan Stiven Zamora Caicedo** - [jzamora5](https://github.com/jzamora5)
