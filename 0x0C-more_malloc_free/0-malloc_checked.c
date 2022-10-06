@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -11,10 +11,10 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void *p;
+	void *n;
 
-	p = malloc(b);
-	if (p == 0)
+	n = malloc(b);
+	if (n == 0)
 		exit(98);
-	return (p);
+	return (n);
 }
