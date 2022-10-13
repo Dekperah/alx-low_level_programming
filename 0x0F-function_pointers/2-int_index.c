@@ -9,6 +9,7 @@
  * Return: No element matches -1, if size <=0 -1
  * else index of first element cmp func does not rtrn 0
  */
+
 int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
