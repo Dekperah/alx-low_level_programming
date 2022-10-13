@@ -12,6 +12,7 @@
  * Return: No element matches -1, if size <=0 -1
  * else index of first element cmp func does not rtrn 0
  */
+
 int main(int argc, char **argv)
 {
 	int res;
