@@ -9,6 +9,7 @@
  *
  * Return: 0 on succes, 1 on argv != 2, 2 on negative bytes in argv
  */
+
 int main(int argc, char **argv)
 {
 	int i, bytes;
