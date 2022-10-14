@@ -1,12 +1,14 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
+
 /**
  * tchar - prints variadic argument char
  * @list: variadic list
  *
  * Return: No return
  */
+
 void tchar(va_list list)
 {
 	printf("%c", va_arg(list, int));
