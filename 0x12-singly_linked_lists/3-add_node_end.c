@@ -3,14 +3,13 @@
 #include <stddef.h>
 #include <stdlib.h>
 
-
-
 /**
  * _strlen - function to get length of a string
  * @s: string
  *
  * Return: Length of a array of characters
  */
+
 int _strlen(char *s)
 {
 	int i;
