@@ -9,6 +9,7 @@
  *
  * Return: Length of a array of characters
  */
+
 int _strlen(char *s)
 {
 	int i;
@@ -20,6 +21,7 @@ int _strlen(char *s)
 	}
 	return (i);
 }
+
 /**
  * _strdup - returns a pointer to a newly allocated space in memory, which
  * contains a copy of the string given as a parameter.
