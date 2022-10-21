@@ -8,6 +8,7 @@
  *
  * Return: Number of elements in list
  */
+
 size_t print_list(const list_t *h)
 {
 	unsigned int size = 0;
