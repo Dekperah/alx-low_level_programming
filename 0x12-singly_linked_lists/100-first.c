@@ -7,6 +7,7 @@ void msg(void)__attribute__((constructor));
  *
  * Return: No return
  */
+
 void msg(void)
 {
 	printf("You're beat! and yet, you must allow,");
