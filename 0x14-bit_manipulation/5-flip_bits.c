@@ -7,7 +7,6 @@
  * @m: base 10 number
  *
  * Return: Number of bits you would need to flip
- *
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
