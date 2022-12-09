@@ -10,6 +10,7 @@
  *
  * Return: 0 on Success
  */
+
 int main(int ac, char **av)
 {
 	char pwd[7];
